@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--HEAD-->
+    <head>
+        <meta charset="utf-8">
+        <title>Luis Nevarez</title>
+        <link rel="stylesheet" href="./styles/index.css">
+    </head>
+    <!--END HEAD-->
+
+    <!--BODY-->
+    <body>
+        <!--NAVBAR-->
+        <ul class="navbar">
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#github">GitHub</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <!--END NAVBAR-->
+
+        <!--HEADER VIDEO-->
+        <div id="home">
+            <video autoplay muted loop id="bear-video">
+                <source src="resources/video/bear.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <!--END HEADER VIDEO-->
+
+        <!--HEADER TEXT-->
+        <div class="video-text">
+            <h1>Luis Nevarez' Portfolio</h1>
+            <p>
+                <br />My name is Luis Nevarez. Welcome to my portfolio website. 
+                On it, I will tell you about my background and experience.<br />
+				<br />Thank you for taking the time! 
+            </p>
+        </div>
+        <!--END HEADER TEXT-->
+
+        <!--ABOUT-->
+        <div id="about" class="row">
+            <div class="column-2">
+                <div class="thread">
+                    <img src="resources/images/profile_picture.png" alt="">
+                    <img src="resources/images/profile_picture.png" alt="" class="image-overlay">
+                </div>
+            </div>
+            <div class="column-1">
+                <div class="board">
+                    <h1>About</h1>
+                    <P>
+                        I’m a software developer who has a passion for coding. 
+                        I’m also an art hobbyist who enjoys drawing and computer 
+                        graphics. <br /><br /><br />I'm currently enrolled as a student of 
+                        <a href="https://www.learncodinganywhere.com" 
+                        target="_blank">The Tech Academy</a>’s Software Developer 
+                        Boot Camp, and am being trained and becoming more experienced in the 
+                        following web and programming languages: HTML, CSS, JavaScript, SQL, C# 
+                        and more. <br /><br /><br />My intentions are to become a full-stack 
+                        developer and would love to work with you on your project. 
+                        <a href="#Contact">Contact</a> me below!
+                    </P>
+                </div>
+            </div>
+        </div>
+        <!--END ABOUT-->
+
+        <!--GITHUB-->
+        <div id="github" class="row">
+            <div class="column-1">
+                <div class="board">
+                    <h1>GitHub</h1>
+                    <p>You can view my coding projects on my GitHub profile here:<br /></p>
+                    <div class="my-github">
+                        <a href="https://github.com/koddiak" target="_blank">My GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="column-2">
+                <div class="thread">
+                    <a href="https://github.com/koddiak" target="_blank"><img src="resources/images/github.jpg" alt=""></a>
+                    <a href="https://github.com/koddiak" target="_blank"><img src="resources/images/github.jpg" alt="" class="image-overlay"></a>
+                </div>
+            </div>
+        </div>
+        <!--END GITHUB-->
+
+        <!--CONTACT-->
+        <div id="contact" class="row">
+            <div class="column-3">
+                <div class="thread">
+                    <img src="resources/images/contact.jpg" alt="">
+                    <img src="resources/images/contact.jpg" alt="" class="image-overlay">
+                </div>
+            </div>
+            <div class="column-1">
+                <div class="board">
+                    <h1>Contact</h2> 
+                    <form action="" method="get">
+                        <label>Name:</label>
+                            <input type="text" placeholder="Please enter your name here">
+                        <label>Email:</label>
+                            <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                        <label>Message:</label>
+                            <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                            <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--END CONTACT-->
+
+        <!--FOOTER-->
+        <footer>
+                <p>&copy; Luis Nevarez 2020. All Rights Reserved.</p>
+        </footer>
+        <!--END FOOTER-->
+    </body>
+    <!--END BODY-->
+</html>
