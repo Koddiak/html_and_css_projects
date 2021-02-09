@@ -1,2 +1,3 @@
 # html_and_css_projects
-My projects from The Tech Academy's HTML and CSS course.
+
+This repository contains HTML and CSS projects and assignments done during my bootcamp with The Tech Academy.
